@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "TempConverterApp",
+    "slug": "TempConverterApp",
+    "sdkVersion": "41.0.0",
+    "description": "Use this App to convert Celsius, Fahrenheit, and Kelvin temperatures!",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "temp.converter.app",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {      
+      "package": "temp.converter.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
